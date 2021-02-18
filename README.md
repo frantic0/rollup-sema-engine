@@ -128,14 +128,6 @@ For the JS code, we provide `getBlock`, an utility function that pulls code from
   }
 ```
 
-## Build
-
-
-## Tests and Examples
-
-
-
-
 ## Documentation
 
 The *sema-engine* has small API surface that you can find more about on this project's [wiki](https://github.com/frantic0/sema-engine/wiki).
