@@ -1,13 +1,13 @@
-# rollup-sema-engine
+# sema-engine-rollup
 
 [![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/emersion/stability-badges#experimental)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-yellow.svg)](https://github.com/frantic0/sema-engine/blob/main)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fsema.codes)](https://frantic0.github.io/sema-engine/)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/frantic0/sema-engine/blob/main/LICENSE)
 
-*rollup-sema-engine* contains an example of how to create an application with the *sema-engine* library and the Rollup bundler. This includes importing the *sema-engine* module from node_modules and using it as an ES module and emitting its dependencies.
+*sema-engine-rollup* contains an example of how to create an application with the [*sema-engine*](https://github.com/frantic0/sema-engine) library and the [Rollup](https://rollupjs.org/guide/en/) bundler. This includes importing the *sema-engine* module from node_modules and using it as an ES module, and emitting its dependencies.
 
-*rollup-sema-engine* provides a high-performance audio engine for modern Web applications, with an easy-to-use API. It was extracted from [sema](https://github.com/mimic-sussex/sema), an app developed with @[chriskiefer](https://github.com/chriskiefer) and @[thormagnusson](https://github.com/thormagnusson), and refactored for project MIMIC.
+*sema-engine* provides a high-performance audio engine for modern Web applications, with an easy-to-use API. It was extracted from [sema](https://github.com/mimic-sussex/sema), an app developed with @[chriskiefer](https://github.com/chriskiefer) and @[thormagnusson](https://github.com/thormagnusson), and refactored for project MIMIC.
 
 *sema-engine* builds upon the following components:
 
