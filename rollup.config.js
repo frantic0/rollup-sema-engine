@@ -5,7 +5,6 @@ import { wasm } from "@rollup/plugin-wasm";
 import workerLoader from "rollup-plugin-web-worker-loader";
 import dynamicImportVars from "@rollup/plugin-dynamic-import-vars";
 import copy from "rollup-plugin-copy";
-// import OMT from "@surma/rollup-plugin-off-main-thread";
 
 // `npm run build` -> `production` is true
 // `npm run dev` -> `production` is false
@@ -34,7 +33,6 @@ export default {
 			// options
 		}),
 		workerLoader(),
-    // OMT(),
 		wasm(),
 		copy({
 			targets: [

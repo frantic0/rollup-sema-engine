@@ -1,5 +1,5 @@
 {
-  "name": "rollup-starter-app",
+  "name": "sema-engine-rollup",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-dynamic-import-vars": "^1.1.1",
@@ -13,7 +13,6 @@
     "serve": "^11.3.2"
   },
   "dependencies": {
-    "@surma/rollup-plugin-off-main-thread": "^2.0.0",
     "date-fns": "^2.16.1",
     "sema-engine": "0.0.27"
   },
