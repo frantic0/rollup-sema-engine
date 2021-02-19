@@ -1,0 +1,13 @@
+
+> sema-engine-rollup@ dev /Users/francisco/Documents/dev/MIMIC/sema-engine-rollup
+> npm-run-all --parallel start watch
+
+
+> sema-engine-rollup@ start /Users/francisco/Documents/dev/MIMIC/sema-engine-rollup
+> serve public
+
+
+> sema-engine-rollup@ watch /Users/francisco/Documents/dev/MIMIC/sema-engine-rollup
+> rollup -c -w
+
+INFO: Accepting connections at http://localhost:5000
