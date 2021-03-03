@@ -5,6 +5,7 @@ import { wasm } from "@rollup/plugin-wasm";
 import workerLoader from "rollup-plugin-web-worker-loader";
 import dynamicImportVars from "@rollup/plugin-dynamic-import-vars";
 import copy from "rollup-plugin-copy";
+import sourcemaps from 'rollup-plugin-sourcemaps';
 
 // `npm run build` -> `production` is true
 // `npm run dev` -> `production` is false
@@ -12,8 +13,17 @@ const production = !process.env.ROLLUP_WATCH;
 
 const buildDir = `public`;
 
+
+// Silence warning
+const onwarn = (warning, warn) =>  {
+	// suppress eval warnings
+	if (warning.code === 'EVAL') return
+	warn(warning)
+}
+
 export default {
 	input: "src/main.js",
+  onwarn,
 	output: {
 		format: "es",
 		sourcemap: true,
@@ -79,6 +89,7 @@ export default {
 				},
 			],
 		}),
+    sourcemaps(),
 		production && terser(), // minify, but only in production
 	],
 	watch: {
